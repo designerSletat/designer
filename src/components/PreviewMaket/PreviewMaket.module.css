@@ -1,0 +1,52 @@
+.img{
+    width: 70px;
+    margin: 8px;
+    background: white;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+    transition: all 0.5s ease 0s;
+}
+
+.img:hover{
+    transition: all 1s ease 0s;
+    transform: matrix(1.8, 0, 0, 1.8, 0, 0);  
+}
+.arrImg{
+    margin-top: 50px;
+display: grid;
+grid-template-areas: 
+'l1 r l2';
+grid-auto-columns: 2fr 10fr 2fr;
+
+}
+
+.arrImg_Route{
+    grid-area: r;
+    
+    
+    
+
+}
+
+.arrImg_Img{
+    min-height: 740px;
+    grid-area: l1;
+    margin: auto;
+}
+.arrImg_Img2{
+    min-height: 740px;
+    grid-area: l2;
+    margin: auto;
+}
+.active img{
+    box-shadow: 2px 2px 10px rgb(252, 221, 75);
+}
+
+.PreviewMaket_div{
+    border: none;
+   
+
+}
+
+.PreviewMaket{
+   
+}

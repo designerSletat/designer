@@ -1,0 +1,14 @@
+.AllTypeMaketCentr{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 90%;
+    margin:  auto;
+    
+    margin-top: 10vh;
+    
+    
+
+}
